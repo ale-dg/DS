@@ -64,8 +64,8 @@ fig_box2 = px.histogram (employee_data[employee_data['marital_status'] == marita
 title ='Por estado civil')
 fig_box2.update_layout (xaxis_title = 'Desempeño', yaxis_title = 'Número de Empleados')
 col4, col5 = st.columns([80,80])
-col4.plotly_chart(fig_box, use_container_width=False)
-col5.plotly_chart(fig_box2, use_container_width=False)
+col4.plotly_chart(fig_box, use_container_width=True)
+col5.plotly_chart(fig_box2, use_container_width=True)
 
 #Generar gráfica de barras para mostrar el promedio de horas por estado civil
 st.subheader('Gráfico de Barras del Promedio de Horas Trabajadas por Estado Civil')
