@@ -1,2 +1,2 @@
 # DS
-Entregable del Diplomado en Data Science
+Data Science
