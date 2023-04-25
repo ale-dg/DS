@@ -1,4 +1,4 @@
-altair==4.2.0
-bokeh==2.4.1
-streamlit==1.10.0
-plotly==5.8.2
+altair
+bokeh
+streamlit
+plotly
